@@ -1,0 +1,76 @@
+body{
+    background-image: url(Pictures/back.jpg);
+}
+/*headers and logo*/
+.header{
+    width: 960px;
+    height: 150px;
+    border: 2px solid black;
+}
+.p1{
+    width: 150px;
+    height:148px;
+    position: relative;
+    right: 53px;
+}
+.heading{
+    float: right;
+    margin-right: 200px;
+    padding: 20px;
+    font-size: 35px
+}
+/*header and title end*/
+/*banner starts*/
+.banner{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*banner ends*/
+#full{
+    border: 5px dotted black;
+    width: 967px;
+    height: auto;
+}
+/*Dropdown menu starts*/
+.drop{
+    width: 960px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+ul {
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+      background-image: url(Pictures/drop.jpg);
+    width: 150px;
+    float: left;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+ul li:hover{
+    background-image: url(Pictures/hover.jpg);
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li:hover > ul{
+    display: block;
+}
+ul ul{
+    display: none;
+}
+ul ul ul{
+    margin-left: 150px;
+    position: absolute;
+    top: 155px;
+}
+/*Drop down menu ends*/
+/*slider starts*/
