@@ -5,34 +5,35 @@
     Login
     </title>
     <style>
+        body{
+            color: white;
+        }
         #login{
-            background-color: skyblue;
+            background-image: url(Pictures/p.jpg);
+            border-radius: 10px;
           
         }
         form{
             width: 500px;
         }
-        #form{
-            color: blue;
-        }
-        #button{
-            background-color: lightblue;
-        }
         #create{
-            background-color: lightblue;
+            width: 130px;
+            height: 50px;
+            background-image: url(Pictures/p.jpg);
+            color: white;
+            border-radius: 20px;
         }
         
     </style>
     </head>
     <body>
         <center>
-    <div id="login">
+    <div id="login" style="height: 800px">
     <form name="login">
         <fieldset>
-        <legend>Create your account</legend>
-        Eter your username:
-    <input type="text" name="id" id="form"><br /><br />  Enter your password:  
-        <input type="password" name="pass" id="form" required><br /><br /><input type="button" value="Login" id="button">or
+        <legend>Log into your account</legend>
+    <input type="text" name="id" id="login" placeholder="Enter your username" style="width: 250px; height: 30px;" required><br /><br />  
+        <input type="password" name="pass" id="login" placeholder="Enter your password" style="width: 250px; height: 30px;" required><br /><br /><input type="submit" value="Login" id="create">or
         <a href="create.html"> <input type="button" value="Create an account" id="create" required></a> 
         
         </fieldset>

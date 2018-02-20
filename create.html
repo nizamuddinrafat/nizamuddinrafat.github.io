@@ -3,35 +3,40 @@
 <head>
     <title>Craete an account</title>
     <style>
+        body{
+            color: white;
+        }
         #create{
-            background-color: skyblue;
+            background-image: url(Pictures/p.jpg);
+            border-radius: 10px
         }
         form{
             width: 500px;
         }
-        #name{
-            color: green;
-        }
-        #email{
-            color: green;
+        .create{
+        background-image: url(Pictures/P.jpg);
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            color: white;
+            border-radius: 10px
         }
     
     </style>
     
     </head>
     <body><center>
-    <div id="create">
+    <div id="create" style="height: 800px;">
     <form name="create">
         <fieldset>
             <legend>Create your account</legend><h1><i>Fill in the blanks</i></h1>
-    FirstName:
-        <input type="text" name="name" id="name" required><br /><br />
-        LastName:<input type="text" id="name" required><br/><br />
-        E-Mail:<input type="email" name="email" id="email" required><br /><br />
-           Password: <input type="password" id="name" required><br /><br />
-           Confirm Password:
-            <input type="password" id="name" required><br /><br />
-        <input type="button" value="Create" id="button"><h2><I>After createing yur account you can use it to login to ur website</I></h2>
+   
+<input type="text" name="name" id="create" placeholder="Enter your Name" required><br /><br />
+<input type="text" id="create" placeholder="Enter your last name" required><br/><br />
+<input type="email" name="email" id="create" placeholder="Enter your email here" required><br /><br />
+<input type="password" id="create" placeholder="Enter your password" required><br /><br />
+<input type="password" placeholder="ReEnter your password" id="create" required><br /><br />
+ <input type="Submit" value="Create" class="create"><h2><I>After createing yur account you can use it to login to ur website</I></h2>
     </fieldset>
     </form>
         </div>

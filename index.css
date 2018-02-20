@@ -1,5 +1,5 @@
 body{
-    background-image: url(Pictures/back.jpg);
+    background-image: url(Pictures/p.jpg);
 }
 /*headers and logo*/
 .header{
@@ -45,13 +45,14 @@ ul {
     margin: 0;
 }
 ul li{
-      background-image: url(Pictures/drop.jpg);
+      background-image: url(Pictures/po.jpg);
     width: 150px;
     float: left;
     height: 50px;
     border: 1px solid black;
     text-align: center;
     line-height: 50px;
+    color: white;
 }
 ul li:hover{
     background-image: url(Pictures/hover.jpg);
@@ -73,4 +74,34 @@ ul ul ul{
     top: 155px;
 }
 /*Drop down menu ends*/
-/*slider starts*/
+/*Yt Fb Tw Starts*/
+#fb{
+    position: fixed;
+    right: -180px;
+    top: 300px;
+    transition: 1s;
+}
+#tw{
+    position: fixed;
+    right: -180px;
+    top: 340px;
+    transition: 1s;
+}
+
+#yt{
+    position: fixed;
+    right: -180px;
+    top: 385px;
+    transition: 1s;
+}
+#fb:hover{
+    margin-right: 30px;
+}
+#tw:hover{
+    margin-right: 30px;
+}
+#yt:hover{
+    margin-right: 30px;
+}
+
+
